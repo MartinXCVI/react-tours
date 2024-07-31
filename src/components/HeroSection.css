@@ -1,0 +1,78 @@
+/* For eventual video */
+.hero-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  background: url('/images/home-bg.webp') center center/cover no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-container h1 {
+  color: #fefefe;
+  font-size: 6rem;
+  margin-top: -100px;
+  text-shadow: 0 0 0.1rem #252525;
+}
+
+.hero-container p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: #fefefe;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 0 0 0.1rem #252525;
+}
+
+.hero-btns {
+  margin-top: 2rem;
+}
+
+.hero-btns .btn {
+  margin: 0.5rem;
+}
+
+.play-icon {
+  margin-left: 0.25rem;
+}
+
+@media all and (max-width: 960px) {
+
+  .hero-container h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+
+  .hero-container h1 {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  .hero-container p {
+    font-size: 1.8rem;
+  }
+
+  .btn-mobile {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+}
