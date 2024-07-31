@@ -1,0 +1,121 @@
+.destinations-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.destinations-wrapper .dest-subtitle {
+  width: 100%;
+  font-weight: 600;
+}
+
+.destinations-wrapper .dest-text {
+  width: 50%;
+}
+
+.dest-text, .dest-subtitle {
+  margin-bottom: 1rem;
+  color: #252525;
+}
+
+.destinations-gallery {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+/*---------- Destination Card ----------*/
+
+.dest-card {
+  width: 30%;
+  min-height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.dest-card::after {
+  content: '';
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.dest-name {
+  color: #fefefe;
+  text-shadow: 0 0 0.15rem #252525;
+}
+
+/* dest backgrounds */
+
+.amazonas-dest {
+  background-image: url('/images/dest-imgs/amazonas-dest.webp');
+}
+
+.cartagena-dest {
+  background-image: url('/images/dest-imgs/cartagena-dest.webp');
+}
+
+.florianopolis-dest {
+  background-image: url('/images/dest-imgs/florianopolis-dest.webp');
+}
+
+.lima-dest {
+  background-image: url('/images/dest-imgs/lima-dest.webp');
+}
+
+.ushuaia-dest {
+  background-image: url('/images/dest-imgs/ushuaia-dest.webp');
+}
+
+.valdivia-dest {
+  background-image: url('/images/dest-imgs/valdivia-dest.webp');
+}
+
+@media all and (max-width: 700px) {
+
+  .dest-card {
+    width: 100%;
+  }
+
+  .destinations-gallery {
+    flex-direction: column;
+  }
+
+}
+
+@media all and (max-width: 959px) {
+
+  .destinations-wrapper .dest-subtitle {
+    font-size: 1rem;
+  }
+
+  .destinations-wrapper .dest-text {
+    width: 90%;
+  }
+
+  .destinations-gallery {
+    /* flex-direction: row; */
+    padding: 0;
+  }
+
+  .dest-card {
+    width: 45%;
+  }
+
+}
