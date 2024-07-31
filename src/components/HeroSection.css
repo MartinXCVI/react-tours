@@ -8,7 +8,6 @@
 }
 
 .hero-container {
-  /* background: url('/images/home-bg.webp') center center/cover no-repeat; */
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -17,6 +16,7 @@
   align-items: center;
   box-sizing: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  background: rgba(5, 5, 5, 0.3);
 }
 
 .hero-container h1 {

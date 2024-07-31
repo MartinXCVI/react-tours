@@ -6,7 +6,9 @@ import { BsPlayBtn } from "react-icons/bs";
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <video src="/videos/home-video-bg.mp4" autoPlay loop muted />
+      <video autoPlay loop muted>
+        <source src="/videos/home-video-bg.mp4" type="video/mp4" />
+      </video>
       <h1>ADVENTURE AHEAD</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
