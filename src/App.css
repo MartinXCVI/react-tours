@@ -88,8 +88,18 @@ a {
     font-size: 50px;
   }
 
+  #contact-banner::after {
+    background-position: 65%;
+  }
+
   .page-title {
     font-size: 50px;
   }
+
+  .products {
+    background-position: 30%;
+  }
+
+  
 
 }
