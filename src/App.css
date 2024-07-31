@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: 0;
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
@@ -43,10 +44,52 @@
   font-size: 100px;
 }
 
+.banner-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+#contact-banner {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#contact-banner::after {
+  content: '';
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url('/images/contact-bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-banner h1 {
+  font-size: 100px;
+  color: #fefefe;
+}
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+
+  #contact-banner h1 {
+    font-size: 50px;
+  }
+
+  .page-title {
+    font-size: 50px;
+  }
+
 }

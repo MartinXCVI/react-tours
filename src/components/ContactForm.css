@@ -1,0 +1,84 @@
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.form-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-form {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #252525;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+}
+
+.contact-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000;
+}
+
+.contact-field legend {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #252525;
+  font-weight: 400;
+  text-align: center;
+  padding-inline: 1rem;
+}
+
+.form-sections {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.form-sections label {
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.form-sections input {
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid #25252570;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.form-section textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #25252570;
+  font-size: 1rem;
+  resize: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+@media all and (max-width: 767px) {
+
+  #contact-form {
+    width: 90%;
+  }
+
+}

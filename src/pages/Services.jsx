@@ -3,7 +3,7 @@ import '../App.css'
 const Products = () => {
   return (
     <>
-      <h1 className='services'>Services</h1>
+      <h1 className='services page-title'>Services</h1>
     </>
   )
 }
