@@ -3,6 +3,7 @@ import Gallery from '../components/Destinations/Gallery'
 // import '../components/Destinations/Gallery.css'
 import Footer from '../components/Footer'
 import Commitment from '../components/Destinations/Commitment'
+import Sponsored from '../components/Destinations/Sponsored'
 
 
 const Products = () => {
@@ -13,6 +14,7 @@ const Products = () => {
       </section>
       <Gallery />
       <Commitment />
+      <Sponsored />
       <Footer />
     </>
   )
