@@ -17,7 +17,13 @@
 }
 
 .commit-subtitle {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.commit-subtitle-line {
+  border-top: 0.2rem solid #020202;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .commit-art p {
@@ -29,8 +35,14 @@
 }
 
 .commit-list-item {
-  margin-bottom: 1rem;
-  text-indent: 1rem;
+  margin-bottom: 0.75rem;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.green-check {
+  color: darkgreen;
 }
 
 .commit-fig-container {
