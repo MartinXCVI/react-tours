@@ -99,6 +99,13 @@
 
 }
 
+@media all and (min-width: 701px) and (max-width: 959px) {
+
+  .dest-card {
+    width: 45%;
+  }
+}
+
 @media all and (max-width: 959px) {
 
   .destinations-wrapper .dest-subtitle {
@@ -112,10 +119,6 @@
   .destinations-gallery {
     /* flex-direction: row; */
     padding: 0;
-  }
-
-  .dest-card {
-    width: 45%;
   }
 
 }

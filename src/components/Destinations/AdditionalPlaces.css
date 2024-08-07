@@ -42,3 +42,11 @@
   text-shadow: 0 0 0.1rem #151515;
   padding: 2rem;
 }
+
+@media all and (max-width: 767px) {
+
+  .places-div {
+    width: 45%;
+  }
+
+}
