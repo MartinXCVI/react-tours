@@ -1,0 +1,122 @@
+.experts-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.experts-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experts-article {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/*--------- Expert Card ----------*/
+
+.expert-card {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.25rem;
+  background-color: #fefefe;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.expert-fig {
+  width: 40%;
+  display: grid;
+  justify-items: center;
+}
+
+.expert-fig img {
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.expert-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.expert-name {
+  margin-bottom: 0.5rem;
+}
+
+.expert-location {
+  margin-bottom: 1.5rem;
+  color: gray;
+}
+
+.expert-social a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.expert-social-icon {
+  background-color: #1f98f4;
+  color: #fefefe;
+  padding: 0.5rem;
+  border-radius: 3rem;
+}
+
+.instagram-icon {
+  margin-right: 0.5rem;
+}
+
+@media all and (max-width: 767px) {
+
+  .experts-article {
+    flex-direction: column;
+  }
+
+  .expert-card {
+    width: 90%;
+  }
+
+  .expert-fig {
+    width: 45%;
+  }
+
+  .expert-info {
+    width: 55%;
+  }
+
+  .expert-location {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+  .experts-article {
+    flex-direction: row;
+  }
+
+  .expert-card {
+    width: 45%;
+  }
+
+  .expert-location {
+    margin-bottom: 1rem;
+  }
+}

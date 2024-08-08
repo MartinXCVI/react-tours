@@ -2,6 +2,7 @@ import '../App.css'
 import Cards from '../components/Cards'
 import HeroSection from '../components/HeroSection'
 import Footer from '../components/Footer'
+import Experts from '../components/Home/Experts'
 
 
 const Home = ()=> {
@@ -9,6 +10,7 @@ const Home = ()=> {
     <>
       <HeroSection />
       <Cards />
+      <Experts />
       <Footer />
     </>
   )
